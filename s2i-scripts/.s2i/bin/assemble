@@ -19,6 +19,7 @@ echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 echo "Mesicano clandestino" >> ./info.html
+echo "Ciudadano Mexicano" >> ./info.html
 
 /usr/libexec/s2i/assemble
 ######## CUSTOMIZATION ENDS HERE ############
